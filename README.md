@@ -11,12 +11,12 @@ Support all languages.
 Testability for low and high level automation.
 
 
-Implementing plugins for Vanir:
+## Implementing plugins for Vanir:
 
 
-[!WARNING]
+[WARNING!]
 
-1. Dont mix allocators, It's possible for plugins to be linked against different memory alocators
+1.Dont mix allocators, It's possible for plugins to be linked against different memory alocators
 than your API.
 
 2. Different implementations of STL classes such as std::vector may not be ABI compatible.
