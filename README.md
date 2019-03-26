@@ -15,9 +15,9 @@ Implementing plugins for Vanir:
 
 
 [WARNING]
--[] Dont mix allocators, It's possible for plugins to be linked against different memory alocators
+⋅⋅* Dont mix allocators, It's possible for plugins to be linked against different memory alocators
 than your API.
 
--[] Different implementations of STL classes such as std::vector may not be ABI compatible.
+⋅⋅* Different implementations of STL classes such as std::vector may not be ABI compatible.
 
--[]Use extern "c" link to avoid C++ ABI issues.
+⋅⋅* Use extern "c" link to avoid C++ ABI issues.
