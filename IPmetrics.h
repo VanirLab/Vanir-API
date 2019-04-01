@@ -50,7 +50,7 @@ typedef char getBytes [];
      *
      * @return The parameter value.
      */
-typedef int getValues; 
+typedef int getValues(); 
     /**
      * This method is used to retrieve the end offset of the parameter name
      * within the HTTP/HTTPS request.
